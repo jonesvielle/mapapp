@@ -1,0 +1,27 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  /* padding: 2rem; */
+  /* text-align: center; */
+}
+.map-container{
+  height: 700px;
+  width: 100%;
+}
+.drawer{
+ 
+}
+.drawer h6{
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: medium;
+  color: grey;
+  line-height: 0px;
+  cursor: pointer;
+}
+.appbar{
+  display: flex;
+  flex-direction: column;
+}
+
+
