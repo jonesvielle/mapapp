@@ -14,7 +14,7 @@ import Map, { Marker, Popup } from "react-map-gl";
 import CountriesCard from "./components/countriesCard";
 import axios from "axios";
 import "mapbox-gl/dist/mapbox-gl.css";
-import PinImage from "./assets/pin.png";
+import PinImage from "./assets/pin1.png";
 // import {defineConfig} from 'vite'
 
 const cities = [
@@ -187,7 +187,7 @@ function App() {
 				ModalProps={{
 					keepMounted: false,
 				}}
-				style={{ width: "50vw" }}
+				// style={{ width: "5vw" }}
 				// anchor={anchor}
 				open={openDrawer}
 				// onClose={toggleDrawer(anchor, false)}
@@ -250,7 +250,7 @@ function App() {
 				{...viewState}
 				initialViewState={viewState}
 				style={{
-					width: isMobile ? "100vw" : "200vw",
+					width: isMobile ? "100vw" : "100vw",
 					height: isMobile ? "100vh" : "150vh",
 					marginLeft: "5%",
 				}}
